@@ -1,12 +1,15 @@
 {
-  "name": "@jimp/monorepo",
-  "version": "0.0.0",
+  "name": "@luminati-io/monorepo",
+  "version": "0.16.1-lum.1",
   "private": true,
   "workspaces": [
     "packages/*"
   ],
   "description": "The jimp monorepo.",
-  "repository": "oliver-moran/jimp",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliver-moran/jimp.git"
+  },
   "author": "Andrew Lisowski <lisowski54@gmail.com>",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
@@ -140,5 +143,11 @@
         }
       }
     ]
-  }
+  },
+  "bugs": {
+    "url": "https://github.com/oliver-moran/jimp/issues"
+  },
+  "homepage": "https://github.com/oliver-moran/jimp#readme",
+  "main": "babel.config.js",
+  "license": "ISC"
 }
