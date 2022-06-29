@@ -1,6 +1,6 @@
 {
   "name": "@luminati-io/types",
-  "version": "0.16.1-lum.2",
+  "version": "0.16.1-lum.3",
   "description": "Default Jimp encoder/decoders.",
   "main": "dist/index.js",
   "module": "es/index.js",
@@ -18,11 +18,11 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.7.2",
-    "@luminati-io/bmp": "link:../type-bmp",
-    "@luminati-io/gif": "link:../type-gif",
-    "@luminati-io/jpeg": "link:../type-jpeg",
-    "@luminati-io/png": "link:../type-png",
-    "@luminati-io/tiff": "link:../type-tiff",
+    "@luminati-io/bmp": "0.16.1-lum.3",
+    "@luminati-io/gif": "0.16.1-lum.3",
+    "@luminati-io/jpeg": "0.16.1-lum.3",
+    "@luminati-io/png": "0.16.1-lum.3",
+    "@luminati-io/tiff": "0.16.1-lum.3",
     "timm": "^1.6.1"
   },
   "peerDependencies": {
@@ -36,6 +36,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "0.16.1-lum.2"
+    "url": "0.16.1-lum.3"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@luminati-io/utils",
-  "version": "0.16.1-lum.2",
+  "version": "0.16.1-lum.3",
   "description": "Utils for jimp extensions.",
   "main": "dist/index.js",
   "module": "es/index.js",

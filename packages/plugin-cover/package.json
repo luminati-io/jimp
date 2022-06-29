@@ -1,6 +1,6 @@
 {
   "name": "@luminati-io/plugin-cover",
-  "version": "0.16.1-lum.2",
+  "version": "0.16.1-lum.3",
   "description": "cover an image.",
   "main": "dist/index.js",
   "module": "es/index.js",
@@ -21,7 +21,7 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.7.2",
-    "@luminati-io/utils": "link:../utils"
+    "@luminati-io/utils": "0.16.1-lum.3"
   },
   "peerDependencies": {
     "@luminati-io/custom": ">=0.3.5",
@@ -30,11 +30,11 @@
     "@luminati-io/plugin-scale": ">=0.3.5"
   },
   "devDependencies": {
-    "@luminati-io/custom": "link:../custom",
-    "@luminati-io/plugin-crop": "link:../plugin-crop",
-    "@luminati-io/plugin-resize": "link:../plugin-resize",
-    "@luminati-io/plugin-scale": "link:../plugin-scale",
-    "@luminati-io/test-utils": "link:../test-utils"
+    "@luminati-io/custom": "0.16.1-lum.3",
+    "@luminati-io/plugin-crop": "0.16.1-lum.3",
+    "@luminati-io/plugin-resize": "0.16.1-lum.3",
+    "@luminati-io/plugin-scale": "0.16.1-lum.3",
+    "@luminati-io/test-utils": "0.16.1-lum.3"
   },
   "publishConfig": {
     "access": "public"

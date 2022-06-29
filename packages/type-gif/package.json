@@ -1,6 +1,6 @@
 {
   "name": "@luminati-io/gif",
-  "version": "0.16.1-lum.2",
+  "version": "0.16.1-lum.3",
   "description": "Default Jimp gif encoder/decoder.",
   "main": "dist/index.js",
   "module": "es/index.js",
@@ -18,7 +18,7 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.7.2",
-    "@luminati-io/utils": "link:../utils",
+    "@luminati-io/utils": "0.16.1-lum.3",
     "gifwrap": "^0.9.2",
     "omggif": "^1.0.9"
   },

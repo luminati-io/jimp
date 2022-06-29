@@ -1,6 +1,6 @@
 {
   "name": "@luminati-io/test-utils",
-  "version": "0.16.1-lum.2",
+  "version": "0.16.1-lum.3",
   "description": "Test utils for jimp extensions.",
   "main": "dist/index.js",
   "module": "es/index.js",
@@ -26,7 +26,7 @@
     "pngjs": "^3.3.3"
   },
   "devDependencies": {
-    "@luminati-io/custom": "link:../custom",
+    "@luminati-io/custom": "0.16.1-lum.3",
     "should": "^13.2.3"
   },
   "directories": {

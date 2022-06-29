@@ -1,6 +1,6 @@
 {
   "name": "@luminati-io/plugin-color",
-  "version": "0.16.1-lum.2",
+  "version": "0.16.1-lum.3",
   "description": "Bitmap manipulation to adjust the color in an image.",
   "main": "dist/index.js",
   "module": "es/index.js",
@@ -21,13 +21,13 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.7.2",
-    "@luminati-io/utils": "link:../utils",
+    "@luminati-io/utils": "0.16.1-lum.3",
     "tinycolor2": "^1.4.1"
   },
   "devDependencies": {
-    "@luminati-io/custom": "link:../custom",
-    "@luminati-io/test-utils": "link:../test-utils",
-    "@luminati-io/types": "link:../types"
+    "@luminati-io/custom": "0.16.1-lum.3",
+    "@luminati-io/test-utils": "0.16.1-lum.3",
+    "@luminati-io/types": "0.16.1-lum.3"
   },
   "peerDependencies": {
     "@luminati-io/custom": ">=0.3.5"

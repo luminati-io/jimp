@@ -1,6 +1,6 @@
 {
   "name": "@luminati-io/jimp",
-  "version": "0.16.1-lum.2",
+  "version": "0.16.1-lum.3",
   "description": "An image processing library written entirely in JavaScript (i.e. zero external or native dependencies)",
   "main": "dist/index.js",
   "module": "es/index.js",
@@ -59,9 +59,9 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.7.2",
-    "@luminati-io/custom": "link:../custom",
-    "@luminati-io/plugins": "link:../plugins",
-    "@luminati-io/types": "link:../types",
+    "@luminati-io/custom": "0.16.1-lum.3",
+    "@luminati-io/plugins": "0.16.1-lum.3",
+    "@luminati-io/types": "0.16.1-lum.3",
     "regenerator-runtime": "^0.13.3"
   },
   "devDependencies": {
@@ -71,7 +71,7 @@
     "@babel/plugin-syntax-object-rest-spread": "^7.2.0",
     "@babel/preset-env": "^7.7.1",
     "@babel/register": "^7.7.0",
-    "@luminati-io/test-utils": "link:../test-utils",
+    "@luminati-io/test-utils": "0.16.1-lum.3",
     "babel-eslint": "^10.0.3",
     "babel-plugin-add-module-exports": "^1.0.2",
     "babel-plugin-istanbul": "^5.2.0",
