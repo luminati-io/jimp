@@ -1,6 +1,6 @@
-import { Jimp, mkJGD } from '@jimp/test-utils';
+import { Jimp, mkJGD } from '@luminati-io/test-utils';
 
-import configure from '@jimp/custom';
+import configure from '@luminati-io/custom';
 
 import flip from '../src';
 

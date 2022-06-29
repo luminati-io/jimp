@@ -1,4 +1,4 @@
-import { ImageCallback } from '@jimp/core';
+import { ImageCallback } from '@luminati-io/core';
 
 interface Shadow {
   shadow(options?: {

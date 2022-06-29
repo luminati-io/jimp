@@ -1,4 +1,4 @@
-import { Jimp as jimp, getTestDir } from '@jimp/test-utils';
+import { Jimp as jimp, getTestDir } from '@luminati-io/test-utils';
 
 const fs = require('fs');
 const http = require('http');

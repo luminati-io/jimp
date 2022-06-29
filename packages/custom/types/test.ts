@@ -1,11 +1,11 @@
-import configure from '@jimp/custom';
-import gif from '@jimp/gif';
-import png from '@jimp/png';
-import displace from '@jimp/plugin-displace';
-import resize from '@jimp/plugin-resize';
-import scale from '@jimp/plugin-scale';
-import types from '@jimp/types';
-import plugins from '@jimp/plugins';
+import configure from '@luminati-io/custom';
+import gif from '@luminati-io/gif';
+import png from '@luminati-io/png';
+import displace from '@luminati-io/plugin-displace';
+import resize from '@luminati-io/plugin-resize';
+import scale from '@luminati-io/plugin-scale';
+import types from '@luminati-io/types';
+import plugins from '@luminati-io/plugins';
 import * as Jimp from 'jimp';
 
 // configure should return a valid Jimp type with addons

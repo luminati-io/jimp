@@ -1,6 +1,6 @@
-import { Jimp, mkJGD, getTestDir } from '@jimp/test-utils';
-import configure from '@jimp/custom';
-import types from '@jimp/types';
+import { Jimp, mkJGD, getTestDir } from '@luminati-io/test-utils';
+import configure from '@luminati-io/custom';
+import types from '@luminati-io/types';
 
 import color from '../src';
 
@@ -49,7 +49,11 @@ describe('Convolution', function() {
       .catch(done);
   });
 
-  const sharpM = [[-1, -1, 0], [-1, 1, 1], [0, 1, 1]];
+  const sharpM = [
+    [-1, -1, 0],
+    [-1, 1, 1],
+    [0, 1, 1]
+  ];
 
   it('3x3 sharp matrix on EDGE_EXTEND', done => {
     imgMid

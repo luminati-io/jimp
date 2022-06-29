@@ -1,6 +1,6 @@
 {
-  "name": "@jimp/cli",
-  "version": "0.16.1",
+  "name": "@luminati-io/cli",
+  "version": "0.16.1-lum.2",
   "description": "jimp on the cli",
   "bin": {
     "jimp": "dist/index.js"
@@ -17,7 +17,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@jimp/custom": "link:../custom",
+    "@luminati-io/custom": "link:../custom",
     "chalk": "^2.4.1",
     "jimp": "^0.16.1",
     "log-symbols": "^2.2.0",
@@ -48,5 +48,16 @@
   },
   "yargs": {
     "flatten-duplicate-arrays": false
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luminati-io/jimp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luminati-io/jimp/issues"
+  },
+  "homepage": "https://github.com/luminati-io/jimp#readme"
 }

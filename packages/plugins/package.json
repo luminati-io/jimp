@@ -1,6 +1,6 @@
 {
-  "name": "@jimp/plugins",
-  "version": "0.16.1",
+  "name": "@luminati-io/plugins",
+  "version": "0.16.1-lum.2",
   "description": "Default Jimp plugin.",
   "main": "dist/index.js",
   "module": "es/index.js",
@@ -18,33 +18,41 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.7.2",
-    "@jimp/plugin-blit": "link:../plugin-blit",
-    "@jimp/plugin-blur": "link:../plugin-blur",
-    "@jimp/plugin-circle": "link:../plugin-circle",
-    "@jimp/plugin-color": "link:../plugin-color",
-    "@jimp/plugin-contain": "link:../plugin-contain",
-    "@jimp/plugin-cover": "link:../plugin-cover",
-    "@jimp/plugin-crop": "link:../plugin-crop",
-    "@jimp/plugin-displace": "link:../plugin-displace",
-    "@jimp/plugin-dither": "link:../plugin-dither",
-    "@jimp/plugin-fisheye": "link:../plugin-fisheye",
-    "@jimp/plugin-flip": "link:../plugin-flip",
-    "@jimp/plugin-gaussian": "link:../plugin-gaussian",
-    "@jimp/plugin-invert": "link:../plugin-invert",
-    "@jimp/plugin-mask": "link:../plugin-mask",
-    "@jimp/plugin-normalize": "link:../plugin-normalize",
-    "@jimp/plugin-print": "link:../plugin-print",
-    "@jimp/plugin-resize": "link:../plugin-resize",
-    "@jimp/plugin-rotate": "link:../plugin-rotate",
-    "@jimp/plugin-scale": "link:../plugin-scale",
-    "@jimp/plugin-shadow": "link:../plugin-shadow",
-    "@jimp/plugin-threshold": "link:../plugin-threshold",
+    "@luminati-io/plugin-blit": "link:../plugin-blit",
+    "@luminati-io/plugin-blur": "link:../plugin-blur",
+    "@luminati-io/plugin-circle": "link:../plugin-circle",
+    "@luminati-io/plugin-color": "link:../plugin-color",
+    "@luminati-io/plugin-contain": "link:../plugin-contain",
+    "@luminati-io/plugin-cover": "link:../plugin-cover",
+    "@luminati-io/plugin-crop": "link:../plugin-crop",
+    "@luminati-io/plugin-displace": "link:../plugin-displace",
+    "@luminati-io/plugin-dither": "link:../plugin-dither",
+    "@luminati-io/plugin-fisheye": "link:../plugin-fisheye",
+    "@luminati-io/plugin-flip": "link:../plugin-flip",
+    "@luminati-io/plugin-gaussian": "link:../plugin-gaussian",
+    "@luminati-io/plugin-invert": "link:../plugin-invert",
+    "@luminati-io/plugin-mask": "link:../plugin-mask",
+    "@luminati-io/plugin-normalize": "link:../plugin-normalize",
+    "@luminati-io/plugin-print": "link:../plugin-print",
+    "@luminati-io/plugin-resize": "link:../plugin-resize",
+    "@luminati-io/plugin-rotate": "link:../plugin-rotate",
+    "@luminati-io/plugin-scale": "link:../plugin-scale",
+    "@luminati-io/plugin-shadow": "link:../plugin-shadow",
+    "@luminati-io/plugin-threshold": "link:../plugin-threshold",
     "timm": "^1.6.1"
   },
   "peerDependencies": {
-    "@jimp/custom": ">=0.3.5"
+    "@luminati-io/custom": ">=0.3.5"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luminati-io/jimp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luminati-io/jimp/issues"
+  },
+  "homepage": "https://github.com/luminati-io/jimp#readme"
 }

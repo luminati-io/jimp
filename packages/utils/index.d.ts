@@ -1,4 +1,4 @@
-import { Image, Omit } from '@jimp/core';
+import { Image, Omit } from '@luminati-io/core';
 import { ThrowStatement } from 'typescript';
 
 export function isNodePattern(cb: Function): true;

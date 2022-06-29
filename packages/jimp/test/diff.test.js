@@ -1,4 +1,4 @@
-import { Jimp, mkJGD } from '@jimp/test-utils';
+import { Jimp, mkJGD } from '@luminati-io/test-utils';
 
 describe('Compare image difference', () => {
   let imgs = [

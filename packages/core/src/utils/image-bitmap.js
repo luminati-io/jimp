@@ -1,7 +1,7 @@
 import fileType from 'file-type';
 
 import EXIFParser from 'exif-parser';
-import { throwError } from '@jimp/utils';
+import { throwError } from '@luminati-io/utils';
 
 import * as constants from '../constants';
 import * as MIME from './mime';

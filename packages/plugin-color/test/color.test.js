@@ -1,5 +1,5 @@
-import { Jimp, donutJGD } from '@jimp/test-utils';
-import configure from '@jimp/custom';
+import { Jimp, donutJGD } from '@luminati-io/test-utils';
+import configure from '@luminati-io/custom';
 
 import color from '../src';
 

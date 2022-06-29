@@ -1,7 +1,7 @@
-import { Jimp, mkJGD, getTestDir } from '@jimp/test-utils';
-import configure from '@jimp/custom';
-import resize from '@jimp/plugin-resize';
-import blur from '@jimp/plugin-blur';
+import { Jimp, mkJGD, getTestDir } from '@luminati-io/test-utils';
+import configure from '@luminati-io/custom';
+import resize from '@luminati-io/plugin-resize';
+import blur from '@luminati-io/plugin-blur';
 
 import shadow from '../src';
 

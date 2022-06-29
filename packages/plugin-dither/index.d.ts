@@ -1,4 +1,4 @@
-import { ImageCallback } from '@jimp/core';
+import { ImageCallback } from '@luminati-io/core';
 
 interface Dither {
   dither565(cb?: ImageCallback<this>): this;

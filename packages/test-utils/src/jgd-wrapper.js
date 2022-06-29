@@ -1,4 +1,4 @@
-import configure from '@jimp/custom';
+import configure from '@luminati-io/custom';
 import { PNG } from 'pngjs';
 
 import JGD from './jgd';

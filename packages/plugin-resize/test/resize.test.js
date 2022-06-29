@@ -1,5 +1,5 @@
-import { Jimp, mkJGD, hashForEach } from '@jimp/test-utils';
-import configure from '@jimp/custom';
+import { Jimp, mkJGD, hashForEach } from '@luminati-io/test-utils';
+import configure from '@luminati-io/custom';
 
 import resize from '../src';
 

@@ -1,10 +1,10 @@
 import fs from 'fs';
 import should from 'should';
 
-import { Jimp, getTestDir } from '@jimp/test-utils';
+import { Jimp, getTestDir } from '@luminati-io/test-utils';
 
-import configure from '@jimp/custom';
-import plugins from '@jimp/plugins';
+import configure from '@luminati-io/custom';
+import plugins from '@luminati-io/plugins';
 
 const jimp = configure({ plugins: [plugins] }, Jimp);
 

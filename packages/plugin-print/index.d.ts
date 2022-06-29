@@ -1,4 +1,4 @@
-import { GenericCallback, ImageCallback } from '@jimp/core';
+import { GenericCallback, ImageCallback } from '@luminati-io/core';
 
 export interface FontChar {
   id: number;

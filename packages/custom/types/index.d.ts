@@ -8,7 +8,7 @@ import {
   GetIntersectionFromPlugins,
   GetIntersectionFromPluginsStatics,
   JimpConstructors
-} from '@jimp/core';
+} from '@luminati-io/core';
 
 type JimpInstance<
   TypesFuncArr extends FunctionRet<JimpType> | undefined,

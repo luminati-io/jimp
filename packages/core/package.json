@@ -1,6 +1,6 @@
 {
-  "name": "@jimp/core",
-  "version": "0.16.1",
+  "name": "@luminati-io/core",
+  "version": "0.16.1-lum.2",
   "description": "Jimp core",
   "main": "dist/index.js",
   "module": "es/index.js",
@@ -14,7 +14,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/oliver-moran/jimp.git"
+    "url": "git+https://github.com/oliver-moran/jimp.git"
   },
   "bugs": {
     "url": "https://github.com/oliver-moran/jimp/issues"
@@ -35,7 +35,7 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.7.2",
-    "@jimp/utils": "link:../utils",
+    "@luminati-io/utils": "link:../utils",
     "any-base": "^1.1.0",
     "buffer": "^5.2.0",
     "exif-parser": "^0.1.12",
@@ -52,5 +52,9 @@
   "xo": false,
   "publishConfig": {
     "access": "public"
+  },
+  "homepage": "https://github.com/oliver-moran/jimp#readme",
+  "directories": {
+    "test": "test"
   }
 }

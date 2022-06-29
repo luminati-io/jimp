@@ -1,6 +1,6 @@
 {
-  "name": "@jimp/plugin-print",
-  "version": "0.16.1",
+  "name": "@luminati-io/plugin-print",
+  "version": "0.16.1-lum.2",
   "description": "print an image.",
   "main": "dist/index.js",
   "module": "es/index.js",
@@ -21,19 +21,30 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.7.2",
-    "@jimp/utils": "link:../utils",
+    "@luminati-io/utils": "link:../utils",
     "load-bmfont": "^1.4.0"
   },
   "peerDependencies": {
-    "@jimp/custom": ">=0.3.5",
-    "@jimp/plugin-blit": ">=0.3.5"
+    "@luminati-io/custom": ">=0.3.5",
+    "@luminati-io/plugin-blit": ">=0.3.5"
   },
   "devDependencies": {
-    "@jimp/custom": "link:../custom",
-    "@jimp/plugin-blit": "link:../plugin-blit",
-    "@jimp/test-utils": "link:../test-utils"
+    "@luminati-io/custom": "link:../custom",
+    "@luminati-io/plugin-blit": "link:../plugin-blit",
+    "@luminati-io/test-utils": "link:../test-utils"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luminati-io/jimp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luminati-io/jimp/issues"
+  },
+  "homepage": "https://github.com/luminati-io/jimp#readme"
 }

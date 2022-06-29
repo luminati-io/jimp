@@ -1,5 +1,5 @@
 import JPEG from 'jpeg-js';
-import { throwError, isNodePattern } from '@jimp/utils';
+import { throwError, isNodePattern } from '@luminati-io/utils';
 
 const MIME_TYPE = 'image/jpeg';
 

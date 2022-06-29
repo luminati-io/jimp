@@ -1,4 +1,4 @@
-import { DecoderFn, EncoderFn, ImageCallback } from '@jimp/core';
+import { DecoderFn, EncoderFn, ImageCallback } from '@luminati-io/core';
 
 interface JpegClass {
   _quality: number;

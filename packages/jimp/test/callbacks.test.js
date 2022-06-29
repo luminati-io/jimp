@@ -1,7 +1,7 @@
-import { Jimp, mkJGD, hasOwnProp } from '@jimp/test-utils';
+import { Jimp, mkJGD, hasOwnProp } from '@luminati-io/test-utils';
 
-import configure from '@jimp/custom';
-import plugins from '@jimp/plugins';
+import configure from '@luminati-io/custom';
+import plugins from '@luminati-io/plugins';
 
 const jimp = configure({ plugins: [plugins] }, Jimp);
 

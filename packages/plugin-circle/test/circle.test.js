@@ -1,5 +1,5 @@
-import { Jimp, mkJGD, getTestDir } from '@jimp/test-utils';
-import configure from '@jimp/custom';
+import { Jimp, mkJGD, getTestDir } from '@luminati-io/test-utils';
+import configure from '@luminati-io/custom';
 
 import circle from '../src';
 

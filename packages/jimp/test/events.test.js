@@ -1,6 +1,6 @@
-import { Jimp as jimp, mkJGD, getTestDir } from '@jimp/test-utils';
-import configure from '@jimp/custom';
-import plugins from '@jimp/plugins';
+import { Jimp as jimp, mkJGD, getTestDir } from '@luminati-io/test-utils';
+import configure from '@luminati-io/custom';
+import plugins from '@luminati-io/plugins';
 
 const Jimp = configure({ plugins: [plugins] }, jimp);
 

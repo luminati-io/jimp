@@ -1,7 +1,7 @@
-import { Jimp, getTestDir } from '@jimp/test-utils';
-import configure from '@jimp/custom';
-import types from '@jimp/types';
-import plugins from '@jimp/plugins';
+import { Jimp, getTestDir } from '@luminati-io/test-utils';
+import configure from '@luminati-io/custom';
+import types from '@luminati-io/types';
+import plugins from '@luminati-io/plugins';
 
 const jimp = configure({ types: [types], plugins: [plugins] }, Jimp);
 

@@ -1,4 +1,4 @@
-import { isNodePattern, throwError } from '@jimp/utils';
+import { isNodePattern, throwError } from '@luminati-io/utils';
 
 /**
  * Displaces the image based on the provided displacement map

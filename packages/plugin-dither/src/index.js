@@ -1,4 +1,4 @@
-import { isNodePattern } from '@jimp/utils';
+import { isNodePattern } from '@luminati-io/utils';
 
 /**
  * Apply a ordered dithering effect

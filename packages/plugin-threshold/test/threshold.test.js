@@ -1,8 +1,8 @@
-import { Jimp, getTestDir } from '@jimp/test-utils';
-import configure from '@jimp/custom';
-import jpeg from '@jimp/jpeg';
-import color from '@jimp/plugin-color';
-import resize from '@jimp/plugin-resize';
+import { Jimp, getTestDir } from '@luminati-io/test-utils';
+import configure from '@luminati-io/custom';
+import jpeg from '@luminati-io/jpeg';
+import color from '@luminati-io/plugin-color';
+import resize from '@luminati-io/plugin-resize';
 
 import threshold from '../src';
 

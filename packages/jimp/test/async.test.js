@@ -1,6 +1,6 @@
 import fs from 'fs';
 import should from 'should';
-import { Jimp, getTestDir } from '@jimp/test-utils';
+import { Jimp, getTestDir } from '@luminati-io/test-utils';
 
 const imagesDir = getTestDir(__dirname) + '/images';
 

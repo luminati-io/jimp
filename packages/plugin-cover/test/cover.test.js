@@ -1,8 +1,8 @@
-import { Jimp, mkJGD, hasOwnProp } from '@jimp/test-utils';
-import configure from '@jimp/custom';
-import crop from '@jimp/plugin-crop';
-import scale from '@jimp/plugin-scale';
-import resize from '@jimp/plugin-resize';
+import { Jimp, mkJGD, hasOwnProp } from '@luminati-io/test-utils';
+import configure from '@luminati-io/custom';
+import crop from '@luminati-io/plugin-crop';
+import scale from '@luminati-io/plugin-scale';
+import resize from '@luminati-io/plugin-resize';
 
 import cover from '../src';
 

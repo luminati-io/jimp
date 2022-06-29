@@ -16,9 +16,9 @@ import {
   GetPluginEncoders,
   GetPluginDecoders,
   JimpConstructors
-} from '@jimp/core';
-import typeFn from '@jimp/types';
-import pluginFn from '@jimp/plugins';
+} from '@luminati-io/core';
+import typeFn from '@luminati-io/types';
+import pluginFn from '@luminati-io/plugins';
 
 type Types = ReturnType<typeof typeFn>;
 type Plugins = ReturnType<typeof pluginFn>;

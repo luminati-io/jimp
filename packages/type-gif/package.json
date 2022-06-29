@@ -1,6 +1,6 @@
 {
-  "name": "@jimp/gif",
-  "version": "0.16.1",
+  "name": "@luminati-io/gif",
+  "version": "0.16.1-lum.2",
   "description": "Default Jimp gif encoder/decoder.",
   "main": "dist/index.js",
   "module": "es/index.js",
@@ -18,14 +18,25 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.7.2",
-    "@jimp/utils": "link:../utils",
+    "@luminati-io/utils": "link:../utils",
     "gifwrap": "^0.9.2",
     "omggif": "^1.0.9"
   },
   "peerDependencies": {
-    "@jimp/custom": ">=0.3.5"
+    "@luminati-io/custom": ">=0.3.5"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luminati-io/jimp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/luminati-io/jimp/issues"
+  },
+  "homepage": "https://github.com/luminati-io/jimp#readme"
 }

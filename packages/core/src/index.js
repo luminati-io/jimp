@@ -2,7 +2,12 @@ import fs from 'fs';
 import Path from 'path';
 import EventEmitter from 'events';
 
-import { isNodePattern, throwError, scan, scanIterator } from '@jimp/utils';
+import {
+  isNodePattern,
+  throwError,
+  scan,
+  scanIterator
+} from '@luminati-io/utils';
 import anyBase from 'any-base';
 import mkdirp from 'mkdirp';
 import pixelMatch from 'pixelmatch';
@@ -25,9 +30,10 @@ const alphabet =
 const maxHashLength = [NaN, NaN];
 
 for (let i = 2; i < 65; i++) {
-  const maxHash = anyBase(anyBase.BIN, alphabet.slice(0, i))(
-    new Array(64 + 1).join('1')
-  );
+  const maxHash = anyBase(
+    anyBase.BIN,
+    alphabet.slice(0, i)
+  )(new Array(64 + 1).join('1'));
   maxHashLength.push(maxHash.length);
 }
 

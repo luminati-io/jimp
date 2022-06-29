@@ -1,6 +1,6 @@
-import { Jimp, mkJGD, getTestDir } from '@jimp/test-utils';
-import jpeg from '@jimp/jpeg';
-import configure from '@jimp/custom';
+import { Jimp, mkJGD, getTestDir } from '@luminati-io/test-utils';
+import jpeg from '@luminati-io/jpeg';
+import configure from '@luminati-io/custom';
 
 import blit from '../src';
 

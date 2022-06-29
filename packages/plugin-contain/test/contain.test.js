@@ -1,8 +1,8 @@
-import { Jimp, mkJGD, hasOwnProp } from '@jimp/test-utils';
-import configure from '@jimp/custom';
-import blit from '@jimp/plugin-blit';
-import resize from '@jimp/plugin-resize';
-import scale from '@jimp/plugin-scale';
+import { Jimp, mkJGD, hasOwnProp } from '@luminati-io/test-utils';
+import configure from '@luminati-io/custom';
+import blit from '@luminati-io/plugin-blit';
+import resize from '@luminati-io/plugin-resize';
+import scale from '@luminati-io/plugin-scale';
 
 import contain from '../src';
 

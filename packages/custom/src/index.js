@@ -3,7 +3,7 @@ import Jimp, {
   addJimpMethods,
   addConstants,
   jimpEvChange
-} from '@jimp/core';
+} from '@luminati-io/core';
 
 export default function configure(configuration, jimpInstance = Jimp) {
   const jimpConfig = {

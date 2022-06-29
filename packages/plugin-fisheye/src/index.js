@@ -1,4 +1,4 @@
-import { isNodePattern } from '@jimp/utils';
+import { isNodePattern } from '@luminati-io/utils';
 
 /**
  * Creates a circle out of an image.

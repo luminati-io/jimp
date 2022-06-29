@@ -1,5 +1,5 @@
-import { Jimp, getTestDir } from '@jimp/test-utils';
-import configure from '@jimp/custom';
+import { Jimp, getTestDir } from '@luminati-io/test-utils';
+import configure from '@luminati-io/custom';
 
 import jpeg from '../src';
 

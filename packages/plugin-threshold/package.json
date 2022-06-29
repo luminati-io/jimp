@@ -1,6 +1,6 @@
 {
-  "name": "@jimp/plugin-threshold",
-  "version": "0.16.1",
+  "name": "@luminati-io/plugin-threshold",
+  "version": "0.16.1-lum.2",
   "description": "Lightens an image.",
   "main": "dist/index.js",
   "module": "es/index.js",
@@ -21,21 +21,28 @@
   "license": "MIT",
   "dependencies": {
     "@babel/runtime": "^7.7.2",
-    "@jimp/utils": "link:../utils"
+    "@luminati-io/utils": "link:../utils"
   },
   "peerDependencies": {
-    "@jimp/custom": ">=0.3.5",
-    "@jimp/plugin-color": ">=0.8.0",
-    "@jimp/plugin-resize": ">=0.8.0"
+    "@luminati-io/custom": ">=0.3.5",
+    "@luminati-io/plugin-color": ">=0.8.0",
+    "@luminati-io/plugin-resize": ">=0.8.0"
   },
   "devDependencies": {
-    "@jimp/custom": "link:../custom",
-    "@jimp/jpeg": "link:../type-jpeg",
-    "@jimp/plugin-color": "link:../plugin-color",
-    "@jimp/plugin-resize": "link:../plugin-resize",
-    "@jimp/test-utils": "link:../test-utils"
+    "@luminati-io/custom": "link:../custom",
+    "@luminati-io/jpeg": "link:../type-jpeg",
+    "@luminati-io/plugin-color": "link:../plugin-color",
+    "@luminati-io/plugin-resize": "link:../plugin-resize",
+    "@luminati-io/test-utils": "link:../test-utils"
   },
   "publishConfig": {
     "access": "public"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "0.16.1-lum.2"
   }
 }

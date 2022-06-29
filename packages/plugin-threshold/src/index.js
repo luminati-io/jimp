@@ -1,4 +1,4 @@
-import { isNodePattern, throwError } from '@jimp/utils';
+import { isNodePattern, throwError } from '@luminati-io/utils';
 
 /**
  * Applies a minimum color threshold to a greyscale image.  Converts image to greyscale by default

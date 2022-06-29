@@ -1,6 +1,6 @@
 /* eslint-disable no-labels */
 
-import { throwError, isNodePattern } from '@jimp/utils';
+import { throwError, isNodePattern } from '@luminati-io/utils';
 
 export default function pluginCrop(event) {
   /**

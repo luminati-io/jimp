@@ -1,4 +1,4 @@
-import { ImageCallback } from '@jimp/core';
+import { ImageCallback } from '@luminati-io/core';
 
 interface Flip {
   flip(horizontal: boolean, vertical: boolean, cb?: ImageCallback<this>): this;

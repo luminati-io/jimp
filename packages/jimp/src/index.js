@@ -1,7 +1,7 @@
-import configure from '@jimp/custom';
+import configure from '@luminati-io/custom';
 
-import types from '@jimp/types';
-import plugins from '@jimp/plugins';
+import types from '@luminati-io/types';
+import plugins from '@luminati-io/plugins';
 
 export default configure({
   types: [types],
